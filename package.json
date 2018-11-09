@@ -34,6 +34,7 @@
     "react-table": "6.8.0",
     "react-tagsinput": "3.19.0",
     "resolve-url-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
     "webpack-cli": "^3.1.2",
     "wnumb": "1.1.0"
   },
