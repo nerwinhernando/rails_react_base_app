@@ -5,16 +5,16 @@ import { NavLink } from "react-router-dom";
 import PerfectScrollbar from "perfect-scrollbar";
 import "perfect-scrollbar/css/perfect-scrollbar.css";
 
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import HeaderLinks from "../../components/Header/HeaderLinks.jsx";
 
 // backgroundImage for Sidebar
-import image from "assets/img/full-screen-image-3.jpg";
+import image from "../../assets/img/full-screen-image-3.jpg";
 // image for avatar in Sidebar
-import avatar from "assets/img/default-avatar.png";
+import avatar from "../../assets/img/default-avatar.png";
 // logo for sidebar
-import logo from "logo.svg";
+import logo from "../../logo.svg";
 
-import dashboardRoutes from "routes/dashboard.jsx";
+import dashboardRoutes from "../../routes/dashboard.jsx";
 
 const bgImage = { backgroundImage: "url(" + image + ")" };
 

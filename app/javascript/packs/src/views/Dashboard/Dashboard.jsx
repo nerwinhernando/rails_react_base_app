@@ -5,9 +5,9 @@ import ChartistGraph from "react-chartist";
 // react components used to create a SVG / Vector map
 import { VectorMap } from "react-jvectormap";
 
-import Card from "components/Card/Card.jsx";
-import StatsCard from "components/Card/StatsCard.jsx";
-import Tasks from "components/Tasks/Tasks.jsx";
+import Card from "../../components/Card/Card.jsx";
+import StatsCard from "../../components/Card/StatsCard.jsx";
+import Tasks from "../../components/Tasks/Tasks.jsx";
 
 import {
   dataPie,
@@ -18,7 +18,7 @@ import {
   optionsBar,
   responsiveBar,
   table_data
-} from "variables/Variables.jsx";
+} from "../../variables/Variables.jsx";
 
 var mapData = {
   AU: 760,

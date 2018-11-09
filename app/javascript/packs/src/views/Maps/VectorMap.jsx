@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { VectorMap } from "react-jvectormap";
 import { Grid, Row, Col } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
 var mapData = {
   AU: 760,

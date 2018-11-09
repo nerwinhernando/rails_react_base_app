@@ -9,10 +9,10 @@ import {
   ControlLabel
 } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
-import Checkbox from "components/CustomCheckbox/CustomCheckbox.jsx";
-import Button from "components/CustomButton/CustomButton.jsx";
+import Checkbox from "../../components/CustomCheckbox/CustomCheckbox.jsx";
+import Button from "../../components/CustomButton/CustomButton.jsx";
 
 class ValidationForms extends Component {
   constructor(props) {

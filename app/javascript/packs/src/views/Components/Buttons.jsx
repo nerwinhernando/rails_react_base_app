@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { ButtonGroup, Pagination, Grid, Row, Col } from "react-bootstrap";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import Button from "../../components/CustomButton/CustomButton.jsx";
 
 class Buttons extends Component {
   render() {

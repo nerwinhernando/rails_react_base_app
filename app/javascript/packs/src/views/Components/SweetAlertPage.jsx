@@ -3,9 +3,9 @@ import { Grid, Row, Col } from "react-bootstrap";
 // react component used to create charts
 import SweetAlert from "react-bootstrap-sweetalert";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import Button from "../../components/CustomButton/CustomButton.jsx";
 
 class SweetAlertPage extends Component {
   constructor(props) {

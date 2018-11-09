@@ -8,7 +8,7 @@ import {
   Marker
 } from "react-google-maps";
 
-import MapCard from "components/Card/MapCard.jsx";
+import MapCard from "../../components/Card/MapCard.jsx";
 
 const SatelliteMap = withScriptjs(
   withGoogleMap(props => (

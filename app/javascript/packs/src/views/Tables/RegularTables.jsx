@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Table, Grid, Row, Col } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
-import { thArray, tdArray } from "variables/Variables.jsx";
+import { thArray, tdArray } from "../../variables/Variables.jsx";
 
 class RegularTables extends Component {
   render() {

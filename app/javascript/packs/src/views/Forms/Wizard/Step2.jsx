@@ -10,7 +10,7 @@ import {
 import Select from "react-select";
 import "react-select/dist/react-select.css";
 
-import { selectOptions } from "variables/Variables.jsx";
+import { selectOptions } from "../../../variables/Variables.jsx";
 
 class Step2 extends React.Component {
   constructor(props) {
