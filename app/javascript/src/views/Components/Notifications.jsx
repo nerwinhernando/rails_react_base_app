@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Modal, Alert, Grid, Row, Col } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import Button from "../../components/CustomButton/CustomButton.jsx";
 
 class Notifications extends Component {
   constructor(props) {

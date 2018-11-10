@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import ReactTable from "react-table";
 import { Grid, Row, Col } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
-import Button from "components/CustomButton/CustomButton.jsx";
+import Card from "../../components/Card/Card.jsx";
+import Button from "../../components/CustomButton/CustomButton.jsx";
 
 const dataTable = [
   ["Tiger Nixon", "System Architect", "Edinburgh", "61"],

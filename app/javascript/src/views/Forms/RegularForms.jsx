@@ -11,11 +11,11 @@ import {
   InputGroup
 } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
-import Checkbox from "components/CustomCheckbox/CustomCheckbox.jsx";
-import Button from "components/CustomButton/CustomButton.jsx";
-import Radio from "components/CustomRadio/CustomRadio.jsx";
+import Checkbox from "../../components/CustomCheckbox/CustomCheckbox.jsx";
+import Button from "../../components/CustomButton/CustomButton.jsx";
+import Radio from "../../components/CustomRadio/CustomRadio.jsx";
 
 class RegularForms extends Component {
   constructor(props) {

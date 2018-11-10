@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Breadcrumb, Grid, Row, Col } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
 const preCode = `1. #This is an example of preformatted text.
 2. #Here is another line of code.`;

@@ -3,9 +3,9 @@ import { Grid, Row, Col } from "react-bootstrap";
 // react component used to create charts
 import ChartistGraph from "react-chartist";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
-import { charts } from "variables/chartsVariables.jsx";
+import { charts } from "../../variables/chartsVariables.jsx";
 
 class Charts extends Component {
   render() {

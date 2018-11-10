@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import StepZilla from "react-stepzilla";
 import { Grid, Row, Col } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../../components/Card/Card.jsx";
 
 import Step1 from "./Step1.jsx";
 import Step2 from "./Step2.jsx";

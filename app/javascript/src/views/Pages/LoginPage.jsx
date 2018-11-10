@@ -8,10 +8,10 @@ import {
   FormControl
 } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
-import Button from "components/CustomButton/CustomButton.jsx";
-import Checkbox from "components/CustomCheckbox/CustomCheckbox.jsx";
+import Button from "../../components/CustomButton/CustomButton.jsx";
+import Checkbox from "../../components/CustomCheckbox/CustomCheckbox.jsx";
 
 class LoginPage extends Component {
   constructor(props) {

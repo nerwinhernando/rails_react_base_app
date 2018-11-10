@@ -10,7 +10,7 @@ import {
   Tab
 } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
 class Panels extends Component {
   componentDidUpdate(e) {

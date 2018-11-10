@@ -11,10 +11,10 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%#= javascript_pack_tag 'src/index' %>
-    <%#= stylesheet_pack_tag 'src/assets/sass/appss' %>
+    <%= stylesheet_pack_tag 'admin' %>
   </head>
 
-  <body>
+  <body class="off-canvas-sidebar">
     <%= yield %>
-  </body>
+  </>
 </html>

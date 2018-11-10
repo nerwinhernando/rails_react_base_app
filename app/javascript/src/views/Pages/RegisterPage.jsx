@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Grid, Row, Col, Media, FormControl, FormGroup } from "react-bootstrap";
 
-import Card from "components/Card/Card.jsx";
+import Card from "../../components/Card/Card.jsx";
 
-import Button from "components/CustomButton/CustomButton.jsx";
+import Button from "../../components/CustomButton/CustomButton.jsx";
 
 class RegisterPage extends Component {
   render() {
