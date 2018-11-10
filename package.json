@@ -18,8 +18,8 @@
     "webpack-dev-server": "^2.11.1"
   },
   "scripts": {
-    "build-css": "node-sass-chokidar --include-path ./app/javascript/packs/src --include-path ./node_modules app/javascript/packs/src/ -o app/javascript/packs/src/",
-    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./app/javascript/packs/src --include-path ./node_modules app/javascript/packs/src/ -o app/javascript/packs/src/ --watch --recursive",
+    "build-css": "node-sass-chokidar --include-path ./app/javascript/src --include-path ./node_modules app/javascript/src/ -o app/javascript/src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./app/javascript/src --include-path ./node_modules app/javascript/src/ -o app/javascript/src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
