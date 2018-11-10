@@ -1,2 +1,2 @@
-console.log('Loaded admin app')
-//import 'admin';
+console.log('Loaded src app')
+import 'src';
